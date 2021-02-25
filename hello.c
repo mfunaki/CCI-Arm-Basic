@@ -2,5 +2,5 @@
 
 int main()
 {
-    printf("Hello, ARM world!¥n");
+    printf("Hello, ARM world!\n");
 }
