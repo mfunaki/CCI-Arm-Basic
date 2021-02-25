@@ -9,6 +9,7 @@ jobs:
       - checkout
       - run: uname -a
       - run: gcc -o hello_arm hello.c
+      - run: ./hello_arm
       - run: file hello_arm
 workflows: 
   build:
